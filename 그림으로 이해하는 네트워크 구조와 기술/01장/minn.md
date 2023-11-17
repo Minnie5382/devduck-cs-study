@@ -23,16 +23,14 @@
 
 #### - 종류
 
-![토폴로지](https://github.com/Minnie5382/devduck-cs-study/assets/97179789/db7d5a5d-19f3-4912-9f40-9159256f37fb)
-
+<img src="https://github.com/Minnie5382/devduck-cs-study/assets/97179789/db7d5a5d-19f3-4912-9f40-9159256f37fb" width = 850px;>
 
 토폴로지는 여러 종류가 있는데, 실제로는 여러 토폴로지를 조합한 복합형 토폴로지를 사용하는 것이 일반적이다.
 
 또한 물리적인 토폴로지와 네트워크 상 관리 방법이 반드시 일치하지 않는다.
 예를 들어 인터넷의 라우터는 메시형(망형)으로 연결되어 있지만 웹의 도메인 이름은 트리형으로 관리된다.(https://www.naver.com)
 
-![도메인](https://github.com/Minnie5382/devduck-cs-study/assets/97179789/a5d9bd0d-b9c3-45df-a4d0-8d270812aef7)
-
+<img src="https://github.com/Minnie5382/devduck-cs-study/assets/97179789/a5d9bd0d-b9c3-45df-a4d0-8d270812aef7" width = 400px;>
 
 ### 03. 네트워크 구성 요소
 #### - LAN과 라우터
