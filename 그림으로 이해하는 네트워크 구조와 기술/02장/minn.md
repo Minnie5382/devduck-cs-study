@@ -88,14 +88,15 @@ IP는 현재도 널리 쓰이지만, 본래 단점이 많다.(비연결성, 비�
 
 ###### 현재 대부분의 인터넷 통신이 IP와 TCP 조합으로 이루어지며, 이를 한데 묶어서 TCP/IP 프로토콜이라고 한다. 그리고 앞서 배웠던 TCP/IP 네트워크 모델도 TCP/IP 프로토콜을 중심으로 구축되었기 때문에 그런 이름이 붙여졌다.
 
-### 09 & 10.
+### 09 & 10. IP 주소
 #### - IPv4/IPv6
 
 TCP/IP 프로토콜을 사용하는 인터넷에서는 컴퓨터의 기본적인 주소로 IP 주소를 사용한다. IANA에서 관리한다.
 버전은 IPv4와 IPv6 두 가지가 있는데, 서로 호환은 되지 않고 현재는 혼용하여 사용한다.
 
 IPv4는 아래 그림처럼 구성되어 있다.
-![image](https://github.com/Minnie5382/devduck-cs-study/assets/97179789/c837c699-7816-40c9-aa9d-9365188a0a6b)
+
+<img width="484" alt="image" src="https://github.com/Minnie5382/devduck-cs-study/assets/97179789/e71283ca-3aff-4d2e-9853-1d4a46336511">
 
 네트워크에서는 8 bits = 1 byte 단위를 옥텟이라고 한다.
 
@@ -119,7 +120,8 @@ IPv4는 32 bits = 2의 8제곱 = 약 43억개의 주소를 사용할 수 있다.
 >
 >프라이빗 IP : LAN 내부에서 디바이스들이 사용하는 IP 주소. LAN 내부에서만 사용. LAN 내에서 유일함
 
-![image](https://github.com/Minnie5382/devduck-cs-study/assets/97179789/1b6fb1f0-e05d-4ceb-95a1-db0108c21f77)
+<img width="441" alt="image" src="https://github.com/Minnie5382/devduck-cs-study/assets/97179789/e0dcf49f-2f2e-42ca-a59e-91c50f5f46ee">
+
 
 ### 11. MAC 주소
 #### - 구조
@@ -204,19 +206,21 @@ TCP/UDP 헤더의 상위 16 bits에 해당하고 16 bits이므로 0~65535 범위
 
 #### - 패킷이 만들어지는 이야기
 
-![image](https://github.com/Minnie5382/devduck-cs-study/assets/97179789/a140a5d6-57b9-4f21-b140-1880dd4b14a7)
+<img width="800" alt="image" src="https://github.com/Minnie5382/devduck-cs-study/assets/97179789/03bcad1e-f5da-4d9c-b904-b7e465d8eac4">
 
 >(이후 설명은 TCP/IP 5계층 기준입니다)
+>
 >앞서 상위 계층에서 하위 계층으로 내려갈수록 헤더가 붙고, 이를 캡슐화라고 배웠었다.
 >
 >네트워크 계층을 크게 애플리케이션/시스템으로 나눴을 때, 애플리케이션 단에서 시스템 단으로 데이터를 내려보낼 때 소켓이 필요하다.
 >소켓은 쉽게 말해 TCP, UDP 등의 프로토콜이라고 생각하면 된다. 
 >응용 계층에서 내려온 데이터가 L4에서 TCP/UDP를 만나면 일정 단위로 분할되고(segmentation), 우리가 알던 것처럼 TCP/UDP 헤더가 붙게 된다. dl 헤더가 붙은 세그먼트 조각들은 또 L3로 내려가서 IP 프로토콜을 만나 IP 헤더가 붙는데 이걸 패킷(packet)이라고 한다. 이 패킷은 L2로 내려가 이더넷 프로토콜을 만나 또 이더넷 헤더가 붙어서 '프레임'이 된다.
->
 
-![image](https://github.com/Minnie5382/devduck-cs-study/assets/97179789/ec04a337-cb34-4603-bd81-6f6e066650a6)
 
 #### - 패킷의 구조
+
+<img width="450" alt="image" src="https://github.com/Minnie5382/devduck-cs-study/assets/97179789/2b27a0b9-be33-4ae8-a3dc-2628a504c3ae">
+
 ![image](https://github.com/Minnie5382/devduck-cs-study/assets/97179789/fb6323b8-72d9-4100-ae4d-ab77e07483d8)
 
 
@@ -276,9 +280,9 @@ IEEE 802.11 규격 중 무선 LAN 규격(Wi-Fi)을 사용한다.
 |이더넷 (IEEE 802.3 시리즈)|버스형 이더넷의 동축 테이블: 10BASE5, 10BASE2<br>스타형 이더넥의 트위스트 페어 케이블: 100BASE-T, 1000BASE-TX|
 |광섬유 케이블 (ANSI/TIA-568.3-D)|데이터 통신|
 
+<img width="200" alt="image" src="https://github.com/Minnie5382/devduck-cs-study/assets/97179789/65d62363-d769-4417-9c6a-368a11bbc5ef">
+<img width="200" alt="image" src="https://github.com/Minnie5382/devduck-cs-study/assets/97179789/948efba8-9b38-4d7d-ad2d-fb4afbb3a097">
 
-![image](https://github.com/Minnie5382/devduck-cs-study/assets/97179789/65d62363-d769-4417-9c6a-368a11bbc5ef)
-![image](https://github.com/Minnie5382/devduck-cs-study/assets/97179789/948efba8-9b38-4d7d-ad2d-fb4afbb3a097)
 
 #### - 광 케이블 유형
 >광섬유 케이블: 빛이 투과하는 유리 섬유를 튜브가 감싸고 있는 구조의 케이블.
@@ -302,6 +306,7 @@ RS232C 케이블에 이용되는 커넥터. 선호선 25개 중 9개를 연결�
 
 #### - USB(Universal Serial Bus)
 충전 뿐만아니라 데이터 전송용 선도 포함하고 있다.
+
 <img width="300" alt="image" src="https://github.com/Minnie5382/devduck-cs-study/assets/97179789/d44e5118-b454-4519-aeec-ee255e683572">
 
 <br>
