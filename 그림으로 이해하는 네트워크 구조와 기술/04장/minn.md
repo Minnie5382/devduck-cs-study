@@ -77,7 +77,9 @@ TCP/IP 프로토콜은 IP 주소를 기반으로 패킷을 전송하는 기능�
 
 ### 42. URL/URI
 
-![image](https://github.com/Minnie5382/devduck-cs-study/assets/97179789/293c0734-8331-4916-a6b8-e5891f5fa442)
+<img width="501" alt="image" src="https://github.com/Minnie5382/devduck-cs-study/assets/97179789/e7287d4b-778c-4b0a-9edb-8beecd6a6f8f">
+
+
 
 >URL(Uniform Resource Locator) : 인터넷 상의 리소스의 **위치**를 특정하는 방법
 >
@@ -271,7 +273,8 @@ FTP의 포트는 21번 (컨트롤 포트), 20번 (데이터 포트)을 사용한
 
 인터넷에서 NTP 서버 문의량은 너무나 많기 때문에 NTP 서버는 계층적으로 배치된다.
 
-![image](https://github.com/Minnie5382/devduck-cs-study/assets/97179789/40ac4c5d-b1ac-4d46-b9d5-e72a15d300bb)
+<img width="600" alt="image" src="https://github.com/Minnie5382/devduck-cs-study/assets/97179789/a469287e-34ed-44d3-b2a3-e3bbda49a032">
+
  
 ### 50. 그 밖에 - Ajax, REST API
 
@@ -279,5 +282,6 @@ FTP의 포트는 21번 (컨트롤 포트), 20번 (데이터 포트)을 사용한
 >
 > REST API : HTTP 통신에서 사용되는 API 이용 방법에 대한 규약. DB, 백엔드 시스템 호출 시 사용됨.
 
-![image](https://github.com/Minnie5382/devduck-cs-study/assets/97179789/7cfe945f-f552-4ef2-be81-5769ff50de46)
+
+<img width="701" alt="image" src="https://github.com/Minnie5382/devduck-cs-study/assets/97179789/6e4aab9c-6f01-40eb-a782-98e817253d65">
 
