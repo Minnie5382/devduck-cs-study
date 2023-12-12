@@ -47,10 +47,12 @@
 - 스택 영역<br>
     데이터를 일시적으로 저장하는 공간. (ex. 함수 매개 변수, 지역 변수) 높은 주소에서 낮은 주소 순으로 할당.
 
-![Alt text](image-1.png)
+<img width="258" alt="image" src="https://github.com/Minnie5382/devduck-cs-study/assets/97179789/90615df5-bcc5-4d0b-84df-f893c216a0ed">
+
 
 ## 프로세스 상태
-![Alt text](image.png)
+![image](https://github.com/Minnie5382/devduck-cs-study/assets/97179789/eac6cfaa-de5f-4bad-9077-f9ceb99a5ce0)
+
 Process State Diagram
 - 생성 : 이제 막 메모리에 적재되어 PCB를 할당받은 상태
 
@@ -64,8 +66,7 @@ Process State Diagram
 
 ## 프로세스 계층 구조 
 
-![Alt text](image-2.png)
-
+![image](https://github.com/Minnie5382/devduck-cs-study/assets/97179789/d3740a0b-de3e-4c5a-82b2-7f00f174f4a6)
 - 부모 프로세스는 실행 도 중 다른 프로세스(자식 프로세스)를 생성할 수 있다. 이런 식으로 OS는 프로세스가 프로세스를 낳는 계층 구조(트리 구조)로 프로세스를 관리한다.
 
 - 부모 프로세스와 자식 프로세스는 각각 다른 PID를 가지고, 운영체제에 따라 자식 프로세스의 PCB에 PPID를 기록하기도 한다.
@@ -100,7 +101,8 @@ Process State Diagram
 
 ## 멀티 프로세스 vs 멀티 스레드
 
-![](image-3.png)
+<img width="812" alt="image" src="https://github.com/Minnie5382/devduck-cs-study/assets/97179789/87d036fb-7e6e-44b1-96f1-8fe9351919c8">
+
 
 >  멀티 프로세스 <br>
 >여러 개의 프로세스가 동시에 실행되는 것. 기본적으로 자원을 공유하지 않는다.
