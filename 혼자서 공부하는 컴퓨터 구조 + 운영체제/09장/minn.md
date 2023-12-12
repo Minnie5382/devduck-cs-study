@@ -20,8 +20,9 @@
 ##### 커널 외의 기능
 ex) GUI, CLI
 
-![Alt text](image.png)
-![Alt text](image-1.png)
+<img width="321" alt="image" src="https://github.com/Minnie5382/devduck-cs-study/assets/97179789/6e249a98-8709-4eb5-aa59-50480802e20f">
+<img width="321" alt="image" src="https://github.com/Minnie5382/devduck-cs-study/assets/97179789/c3c47672-7053-4327-acc9-de5bb5a96983">
+
 
 ##### 이중 모드
 
